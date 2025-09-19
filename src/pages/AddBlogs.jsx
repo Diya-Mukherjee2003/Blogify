@@ -3,7 +3,7 @@ import axios from 'axios'
 import { ToastContainer, toast} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from 'react-router-dom';
-import Context from '../context/Context';;
+import Context from '../context/Context';
 
 const AddBlogs = () => {
   const auth = useContext(Context)

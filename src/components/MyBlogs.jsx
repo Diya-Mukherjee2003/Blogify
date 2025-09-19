@@ -35,6 +35,8 @@ const MyBlogs = () => {
         }
       )
       console.log(api.data.message)
+
+      setBlog((prev) => prev.filter((item) => item._id !== id));
       
       toast.success(api.data.message, {
         position: "top-right",
